@@ -1,0 +1,101 @@
+.heading,
+.subheading {
+  align-self: stretch;
+  position: relative;
+}
+.heading {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.subheading {
+  font-size: var(--body-lg-regular-size);
+  line-height: 1.375rem;
+  font-weight: 500;
+  color: var(--color-dimgray-100);
+}
+.clientLogosTitle {
+  width: 48rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.clientLogosHeading,
+.row1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.clientLogosHeading {
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.row1 {
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--body-sm-regular-size);
+  color: var(--color-lightseagreen);
+  font-family: var(--text-regular-semi-bold);
+}
+.clientLogosContent,
+.clientLogosContentWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.clientLogosContent {
+  width: 82rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+}
+.clientLogosContentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-105xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-23xl);
+  color: var(--color-gray-100);
+  font-family: var(--display-xs-bold);
+}
+@media screen and (max-width: 1350px) {
+  .row1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 925px) {
+  .heading {
+    font-size: var(--font-size-15xl);
+    line-height: 2.5rem;
+  }
+  .clientLogosContent {
+    gap: var(--gap-21xl);
+  }
+  .clientLogosContentWrapper {
+    padding-bottom: var(--padding-62xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading {
+    font-size: var(--font-size-6xl);
+    line-height: 1.875rem;
+  }
+  .clientLogosContent {
+    gap: var(--gap-xl);
+  }
+}

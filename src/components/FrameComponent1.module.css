@@ -1,0 +1,256 @@
+.frameChild {
+  position: absolute;
+  top: 16.563rem;
+  left: 1.875rem;
+  filter: blur(100px);
+  border-radius: 50%;
+  background: linear-gradient(
+      144.28deg,
+      #b0b4ff 17.54%,
+      #737ff3 74.19%,
+      rgba(95, 109, 239, 0.9) 96.59%,
+      rgba(95, 109, 239, 0.9)
+    ),
+    #d9d9d9;
+  width: 7.125rem;
+  height: 1.875rem;
+}
+.frameInner,
+.frameItem {
+  position: absolute;
+  left: 1.813rem;
+  width: 6.875rem;
+}
+.frameItem {
+  top: 0;
+  height: 13.75rem;
+}
+.frameInner {
+  top: 17.25rem;
+  height: 17.125rem;
+  object-fit: contain;
+}
+.courseInfographicShapeItems,
+.courseInfographicShapeItems1 {
+  position: absolute;
+  top: 1.709rem;
+  left: 3.739rem;
+  background-color: var(--color-lightsteelblue-200);
+  border-top: 4.3px solid var(--color-lightsteelblue-100);
+  border-left: 4.3px solid var(--color-lightsteelblue-100);
+  box-sizing: border-box;
+  width: 5.15rem;
+  height: 5.15rem;
+  transform: rotate(30deg);
+  transform-origin: 0 0;
+}
+.courseInfographicShapeItems1 {
+  background-color: var(--color-steelblue);
+  border-top: 5.8px solid var(--color-lavender-200);
+  border-left: 5.8px solid var(--color-lavender-200);
+  z-index: 1;
+}
+.rectangleDiv {
+  top: 1.494rem;
+  left: 3.941rem;
+  background-color: var(--background-color-primary);
+  width: 4.4rem;
+  height: 4.4rem;
+  z-index: 2;
+}
+.ellipseDiv,
+.frameChild1,
+.rectangleDiv {
+  position: absolute;
+  transform: rotate(30deg);
+  transform-origin: 0 0;
+}
+.frameChild1 {
+  top: 2.023rem;
+  left: 4.161rem;
+  background-color: var(--background-color-primary);
+  border: 1.4px solid var(--color-lightsteelblue-300);
+  box-sizing: border-box;
+  width: 3.6rem;
+  height: 3.6rem;
+  z-index: 3;
+}
+.ellipseDiv {
+  top: 3.486rem;
+  left: 4.611rem;
+  filter: blur(55.61px);
+  border-radius: 50%;
+  background-color: var(--color-mediumblue);
+  width: 2.063rem;
+  height: 1.444rem;
+  z-index: 4;
+}
+.courseInfographicShapeItems2,
+.courseInfographicShapeItems3 {
+  position: absolute;
+  top: 4.919rem;
+  left: 1.338rem;
+  width: 7.625rem;
+  height: 2.756rem;
+  z-index: 5;
+}
+.courseInfographicShapeItems3 {
+  top: 4.381rem;
+  z-index: 6;
+}
+.groupIcon,
+.rectangleIcon {
+  position: absolute;
+  object-fit: contain;
+}
+.rectangleIcon {
+  top: 2.113rem;
+  left: 0;
+  width: 10.313rem;
+  height: 5.956rem;
+  z-index: 7;
+}
+.groupIcon {
+  top: 0;
+  left: 3.313rem;
+  width: 4.625rem;
+  height: 5.594rem;
+  z-index: 8;
+}
+.courseInfographicShapeItems4,
+.courseInfographicShapeItems5 {
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #b0b4ff, #5f6def 26.04%);
+  width: 0.463rem;
+  height: 0.463rem;
+}
+.courseInfographicShapeItems4 {
+  top: 0.588rem;
+  left: 3.088rem;
+  z-index: 9;
+}
+.courseInfographicShapeItems5 {
+  top: 8.088rem;
+  left: 6.213rem;
+}
+.frameChild2 {
+  position: absolute;
+  top: 3.094rem;
+  left: 8.269rem;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #66a3ff, #015be2);
+  width: 0.256rem;
+  height: 0.256rem;
+  z-index: 8;
+}
+.courseInfographicShapeItemsParent {
+  position: absolute;
+  top: 12rem;
+  left: 0;
+  width: 10.313rem;
+  height: 8.55rem;
+  z-index: 1;
+}
+.ellipseParent {
+  height: 34.375rem;
+  flex: 1;
+  position: relative;
+}
+.infographiccoursedesign {
+  width: 10.313rem;
+  margin: 0 !important;
+  position: absolute;
+  top: -20.062rem;
+  left: 35.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.button,
+.row2 {
+  position: relative;
+}
+.row2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.button {
+  font-size: var(--body-md-regular-size);
+  line-height: 150%;
+  font-weight: 600;
+  font-family: var(--display-xs-bold);
+  color: var(--color-slateblue);
+  text-align: left;
+  display: inline-block;
+  min-width: 3.813rem;
+}
+.courseExploreButton,
+.coursebutton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.coursebutton {
+  cursor: pointer;
+  border: 2px solid var(--color-slateblue);
+  padding: var(--padding-xs) var(--padding-29xl);
+  background-color: transparent;
+  height: 3.25rem;
+  width: 10.125rem;
+  border-radius: var(--br-9xs);
+  justify-content: flex-start;
+}
+.coursebutton:hover {
+  background-color: var(--color-royalblue-700);
+  border: 2px solid var(--color-royalblue-100);
+  box-sizing: border-box;
+}
+.courseExploreButton {
+  align-self: stretch;
+  height: 3rem;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.coursesContent,
+.coursesContentWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.coursesContent {
+  width: 82rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.coursesContentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--body-sm-regular-size);
+  color: var(--color-lightseagreen);
+  font-family: var(--text-regular-semi-bold);
+}
+@media screen and (max-width: 1350px) {
+  .row2 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 925px) {
+  .coursesContent {
+    gap: var(--gap-5xl);
+  }
+}

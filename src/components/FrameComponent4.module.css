@@ -1,0 +1,621 @@
+.description,
+.sectionTitle {
+  align-self: stretch;
+  position: relative;
+}
+.sectionTitle {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.description {
+  font-size: var(--body-lg-regular-size);
+  line-height: 1.75rem;
+  font-weight: 500;
+  color: var(--color-dimgray-100);
+}
+.logoEading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+  height: 100%;
+}
+.logoHeadingChild {
+  position: absolute;
+  top: 3.063rem;
+  left: 50.688rem;
+  width: 9rem;
+  height: 1.375rem;
+  z-index: 1;
+}
+.logoHeading {
+  align-self: stretch;
+  height: 5.375rem;
+  position: relative;
+  max-width: 100%;
+}
+.clientLogoCard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lgi-3);
+  width: 100%;
+  height: 100%;
+}
+.lineIcon {
+  position: absolute;
+  top: 7.238rem;
+  left: 0;
+  width: 13.269rem;
+  height: 0.075rem;
+  z-index: 1;
+}
+.clientLogoCardParent {
+  align-self: stretch;
+  height: 7.313rem;
+  position: relative;
+}
+.groupIcon,
+.groupIcon1 {
+  height: 2.263rem;
+  width: 2.306rem;
+  position: relative;
+}
+.groupIcon1 {
+  height: 1.788rem;
+  width: 5.613rem;
+}
+.clientLogo,
+.clientLogoCard1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.clientLogo {
+  flex: 1;
+  overflow: hidden;
+  align-items: flex-end;
+  gap: var(--gap-sm-2);
+}
+.clientLogoCard1 {
+  align-self: stretch;
+  border-radius: var(--br-lgi-3);
+  align-items: flex-start;
+  padding: var(--padding-20xl-8) var(--padding-17xl);
+}
+.lineIcon1 {
+  align-self: stretch;
+  height: 0.075rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.clientLogoCardGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.clientLogoCard2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-lgi-3);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.col1,
+.logoItems {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.col1 {
+  align-self: stretch;
+  flex: 1;
+  justify-content: flex-start;
+}
+.logoItems {
+  height: 23.681rem;
+  width: 13.269rem;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xl-1);
+  box-sizing: border-box;
+}
+.lineIcon2 {
+  align-self: stretch;
+  width: 0.075rem;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  min-height: 25.5rem;
+}
+.clientLogoCard3,
+.lineIcon3 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.clientLogoCard3 {
+  flex: 1;
+  border-radius: var(--br-lgi-3);
+  max-height: 100%;
+}
+.lineIcon3 {
+  height: 0.075rem;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.clientLogoCardContainer {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.clientLogoCard4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lgi-3);
+  width: 100%;
+  height: 100%;
+}
+.lineIcon4 {
+  position: absolute;
+  top: 7.238rem;
+  left: 0;
+  width: 13.269rem;
+  height: 0.075rem;
+  z-index: 1;
+}
+.clientLogoCard5,
+.frameDiv {
+  align-self: stretch;
+  position: relative;
+}
+.frameDiv {
+  height: 7.313rem;
+}
+.clientLogoCard5 {
+  flex: 1;
+  border-radius: var(--br-lgi-3);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.col2,
+.logoItems1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.col2 {
+  align-self: stretch;
+  flex: 1;
+  justify-content: flex-start;
+}
+.logoItems1 {
+  height: 23.681rem;
+  width: 13.269rem;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xl-1);
+  box-sizing: border-box;
+}
+.lineIcon5 {
+  align-self: stretch;
+  width: 0.075rem;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  min-height: 25.5rem;
+}
+.clientLogoCard6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lgi-3);
+  width: 100%;
+  height: 100%;
+}
+.lineIcon6 {
+  position: absolute;
+  top: 7.238rem;
+  left: 0;
+  width: 13.269rem;
+  height: 0.075rem;
+  z-index: 1;
+}
+.clientLogoCardParent1 {
+  align-self: stretch;
+  height: 7.313rem;
+  position: relative;
+}
+.clientLogoCard7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lgi-3);
+  width: 100%;
+  height: 100%;
+}
+.lineIcon7 {
+  position: absolute;
+  top: 7.238rem;
+  left: 0;
+  width: 13.269rem;
+  height: 0.075rem;
+  z-index: 1;
+}
+.clientLogoCardParent2 {
+  align-self: stretch;
+  height: 7.313rem;
+  position: relative;
+}
+.clientLogoCard8 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-lgi-3);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.col3,
+.logoItems2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.col3 {
+  align-self: stretch;
+  flex: 1;
+  justify-content: flex-start;
+}
+.logoItems2 {
+  height: 23.681rem;
+  width: 13.269rem;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xl-1);
+  box-sizing: border-box;
+}
+.lineIcon8 {
+  align-self: stretch;
+  width: 0.075rem;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  min-height: 25.5rem;
+}
+.clientLogoCard9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lgi-3);
+  width: 100%;
+  height: 100%;
+}
+.lineIcon9 {
+  position: absolute;
+  top: 7.238rem;
+  left: 0;
+  width: 13.269rem;
+  height: 0.075rem;
+  z-index: 1;
+}
+.clientLogoCardParent3 {
+  align-self: stretch;
+  height: 7.313rem;
+  position: relative;
+}
+.clientLogoCard10,
+.lineIcon10 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.clientLogoCard10 {
+  flex: 1;
+  border-radius: var(--br-lgi-3);
+  max-height: 100%;
+}
+.lineIcon10 {
+  height: 0.075rem;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.clientLogoCardParent4 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.clientLogoCard11 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-lgi-3);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.col4,
+.logoItems3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.col4 {
+  align-self: stretch;
+  flex: 1;
+  justify-content: flex-start;
+}
+.logoItems3 {
+  height: 23.681rem;
+  width: 13.269rem;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xl-1);
+  box-sizing: border-box;
+}
+.lineIcon11 {
+  align-self: stretch;
+  width: 0.075rem;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  min-height: 25.5rem;
+}
+.clientLogoCard12,
+.lineIcon12 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.clientLogoCard12 {
+  flex: 1;
+  border-radius: var(--br-lgi-3);
+  max-height: 100%;
+}
+.lineIcon12 {
+  height: 0.075rem;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.clientLogoCardParent5 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.clientLogoCard13,
+.lineIcon13 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.clientLogoCard13 {
+  flex: 1;
+  border-radius: var(--br-lgi-3);
+  max-height: 100%;
+}
+.lineIcon13 {
+  height: 0.075rem;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.clientLogoCardParent6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.clientLogoCard14,
+.clientLogoCardParent6,
+.col5 {
+  align-self: stretch;
+  flex: 1;
+}
+.clientLogoCard14 {
+  position: relative;
+  border-radius: var(--br-lgi-3);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.col5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameChild {
+  width: 0.25rem;
+  height: 1.688rem;
+  background-color: var(--color-royalblue-300);
+}
+.frameChild,
+.frameInner,
+.frameItem {
+  position: relative;
+  border-radius: var(--br-81xl);
+}
+.frameItem {
+  width: 0.313rem;
+  flex: 1;
+  background-color: var(--color-royalblue-200);
+}
+.frameInner {
+  width: 0.25rem;
+  height: 1.688rem;
+  background-color: var(--color-royalblue-300);
+}
+.rectangleParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.clientContent,
+.clientContentInner,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.clientContentInner {
+  height: 15.369rem;
+  flex-direction: column;
+  padding: var(--padding-84xl-9) 0 0;
+  box-sizing: border-box;
+}
+.clientContent {
+  align-self: stretch;
+  height: 21.863rem;
+  flex-direction: row;
+  gap: var(--gap-4xl-8);
+}
+.clientContentWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xl-1);
+  box-sizing: border-box;
+  min-width: 9.813rem;
+}
+.logos {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background: linear-gradient(
+    180deg,
+    #fff 51.16%,
+    rgba(241, 242, 248, 0.2) 72.35%,
+    rgba(200, 205, 252, 0.4)
+  );
+  border: 1px solid var(--color-royalblue-300);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0 var(--padding-27xl) 0 var(--padding-55xl);
+  z-index: 1;
+}
+.logoContent,
+.logoContentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.logoContent {
+  align-self: stretch;
+  gap: var(--gap-24xl);
+}
+.logoContentWrapper {
+  width: 76rem;
+  padding: var(--padding-mini) 0 0;
+  box-sizing: border-box;
+  min-width: 76rem;
+}
+.ellipseDiv {
+  height: 35.75rem;
+  width: 42.188rem;
+  position: relative;
+  filter: blur(250px);
+  border-radius: 50%;
+  background-color: var(--color-lavender-300);
+  min-width: 42.188rem;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.frameParent {
+  width: 99.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-76xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-23xl);
+  color: var(--color-gray-100);
+  font-family: var(--display-xs-bold);
+}
+@media screen and (max-width: 1825px) {
+  .ellipseDiv,
+  .logoContentWrapper {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .lineIcon11,
+  .lineIcon2,
+  .lineIcon5,
+  .lineIcon8 {
+    width: 100%;
+    height: 0.075rem;
+  }
+  .logos {
+    flex-wrap: wrap;
+    padding-left: var(--padding-18xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+  .logoContentWrapper {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 925px) {
+  .sectionTitle {
+    font-size: var(--font-size-15xl);
+    line-height: 2.5rem;
+  }
+  .logoContent {
+    gap: var(--gap-2xl);
+  }
+  .ellipseDiv {
+    min-width: 100%;
+  }
+  .frameParent {
+    padding-bottom: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sectionTitle {
+    font-size: var(--font-size-6xl);
+    line-height: 1.875rem;
+  }
+}

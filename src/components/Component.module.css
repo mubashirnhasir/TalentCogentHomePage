@@ -1,0 +1,52 @@
+.featureIconShape {
+  width: 4rem;
+  height: 4rem;
+  position: relative;
+  border-radius: var(--br-81xl);
+  display: none;
+}
+.label,
+.number {
+  align-self: stretch;
+  position: relative;
+}
+.number {
+  letter-spacing: -0.02em;
+  line-height: 3.75rem;
+}
+.label {
+  font-size: var(--body-lg-regular-size);
+  line-height: 1.75rem;
+  color: var(--color-darkslategray-200);
+}
+.details,
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.details {
+  align-self: stretch;
+}
+.div {
+  width: 17.5rem;
+  flex-shrink: 0;
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: var(--display-lg-bold-size);
+  color: var(--color-slateblue);
+  font-family: var(--display-xs-bold);
+}
+@media screen and (max-width: 925px) {
+  .number {
+    font-size: var(--font-size-19xl);
+    line-height: 3rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .number {
+    font-size: var(--font-size-10xl);
+    line-height: 2.25rem;
+  }
+}

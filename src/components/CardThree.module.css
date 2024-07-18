@@ -1,0 +1,251 @@
+.image10Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.courseCardImage {
+  height: 15.625rem;
+  width: 17.875rem;
+  border-radius: var(--br-xs);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-20xl-8) 0 var(--padding-20xl-9);
+  min-width: 17.875rem;
+}
+.courseCardTitle {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 6rem;
+}
+.clock05Icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.25rem;
+}
+.months {
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 3.438rem;
+}
+.courseCardDuration,
+.coursesCardInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.courseCardDuration {
+  border-radius: var(--br-5xs);
+  justify-content: center;
+  padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-5xl);
+  gap: var(--gap-4xs);
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-200);
+}
+.coursesCardInfo {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.javaFullstack {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 160%;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--text-primary);
+}
+.coursesCardDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.userGroupIcon {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.25rem;
+}
+.offlineClasses {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 5.063rem;
+}
+.userGroupParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.userSquareIcon {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.25rem;
+}
+.onlineClass {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 4.188rem;
+}
+.courseCardClassType,
+.userSquareParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.userSquareParent {
+  justify-content: center;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.courseCardClassType {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-23xs);
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslategray-300);
+}
+.content1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.download04Icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.5rem;
+}
+.syllabus {
+  position: relative;
+  font-size: var(--body-md-regular-size);
+  line-height: 150%;
+  font-family: var(--text-regular-semi-bold);
+  color: var(--color-slateblue);
+  text-align: left;
+  display: inline-block;
+  min-width: 3.75rem;
+}
+.button {
+  cursor: pointer;
+  border: 1px solid var(--color-slateblue);
+  padding: var(--padding-7xs) var(--padding-lgi);
+  background-color: transparent;
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.button:hover {
+  background-color: var(--color-royalblue-700);
+  border: 1px solid var(--color-royalblue-100);
+  box-sizing: border-box;
+}
+.card,
+.content {
+  display: flex;
+  justify-content: flex-start;
+}
+.content {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 9.688rem;
+}
+.card {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-13xl);
+}
+.cardthree,
+.coursesCardContainers {
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.coursesCardContainers {
+  align-self: stretch;
+  background-color: var(--background-color-primary);
+  padding: var(--padding-3xs) var(--padding-xl);
+}
+.cardthree {
+  width: 37.25rem;
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-3xs) 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-sm-regular-size);
+  color: var(--color-lightseagreen);
+  font-family: var(--text-regular-semi-bold);
+}
+@media screen and (max-width: 925px) {
+  .image10Icon {
+    align-self: stretch;
+    width: auto;
+  }
+  .courseCardImage {
+    flex: 1;
+  }
+  .card {
+    flex-wrap: wrap;
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .javaFullstack {
+    font-size: var(--body-lg-regular-size);
+    line-height: 1.75rem;
+  }
+}

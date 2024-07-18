@@ -1,0 +1,376 @@
+.heading,
+.heading1 {
+  align-self: stretch;
+  position: relative;
+}
+.heading {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.heading1 {
+  font-size: var(--body-lg-regular-size);
+  line-height: 138%;
+  font-weight: 500;
+  color: var(--color-dimgray-100);
+}
+.servicesCardHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--font-size-23xl);
+  color: var(--color-gray-100);
+}
+.becomeExpertIn {
+  position: relative;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  z-index: 4;
+}
+.lineIcon,
+.lineIcon1 {
+  position: absolute;
+  height: 0;
+}
+.lineIcon {
+  top: 6.763rem;
+  left: 0;
+  width: 9.263rem;
+  object-fit: contain;
+}
+.lineIcon1 {
+  top: 16.869rem;
+  left: 28.931rem;
+  width: 9.813rem;
+}
+.vectorIcon {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0.75rem;
+  transform: scale(1.264);
+}
+.wrapperVector {
+  position: absolute;
+  top: 1.538rem;
+  left: 1.475rem;
+  width: 18.975rem;
+  height: 18.975rem;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vectorIcon1 {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0.75rem;
+  transform: scale(1.265);
+}
+.ellipse,
+.ellipse1,
+.wrapperVector1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.wrapperVector1 {
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ellipse,
+.ellipse1 {
+  box-shadow: 0 6px 20px rgba(145, 28, 52, 0.5);
+  border-radius: 50%;
+  background-color: var(--pink);
+  z-index: 4;
+}
+.ellipse1 {
+  box-shadow: 2px 7px 12px rgba(248, 120, 147, 0.2) inset,
+    0-6px 22px rgba(248, 120, 147, 0.5) inset,
+    0 4px 14.1px rgba(255, 255, 255, 0.25);
+  background-color: var(--background-color-primary);
+  z-index: 5;
+}
+.image7Icon {
+  position: absolute;
+  top: 2.331rem;
+  left: 1.15rem;
+  width: 5.25rem;
+  height: 2.938rem;
+  object-fit: contain;
+  z-index: 6;
+}
+.ellipseParent,
+.shapeThree {
+  position: absolute;
+  top: 2.069rem;
+  left: 2.069rem;
+  width: 7.644rem;
+  height: 7.644rem;
+}
+.shapeThree {
+  top: 3.575rem;
+  left: 3.569rem;
+  width: 11.788rem;
+  height: 11.788rem;
+}
+.ellipse2,
+.ellipse3 {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 4;
+}
+.ellipse2 {
+  top: 17.344rem;
+  left: 0.825rem;
+  box-shadow: 1px 1px 7px #2a18c4 inset;
+  background-color: var(--blue);
+  border: 0 solid var(--blue);
+  box-sizing: border-box;
+  width: 0.844rem;
+  height: 0.844rem;
+}
+.ellipse3 {
+  top: 15.731rem;
+  left: 18.931rem;
+  box-shadow: 2px 1px 8px rgba(184, 17, 52, 0.7) inset;
+  background-color: var(--pink);
+  width: 0.769rem;
+  height: 0.769rem;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.shapeTwo {
+  position: absolute;
+  top: 1.519rem;
+  left: 1.525rem;
+  width: 18.925rem;
+  height: 18.85rem;
+}
+.ellipse4,
+.frame {
+  position: absolute;
+  transform-origin: 0 0;
+}
+.ellipse4 {
+  top: 21.963rem;
+  left: 10.527rem;
+  box-shadow: 0 6px 22px rgba(193, 21, 106, 0.6);
+  border-radius: 50%;
+  background-color: var(--dark-pink-2);
+  width: 15.544rem;
+  height: 15.544rem;
+  transform: rotate(-132.6deg);
+  z-index: 3;
+}
+.frame {
+  top: 4.137rem;
+  left: 8.9rem;
+  width: 0.694rem;
+  height: 0.694rem;
+  overflow: hidden;
+  transform: rotate(-16.1deg);
+  z-index: 4;
+}
+.ellipseGroup,
+.shapeOne {
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+.ellipseGroup {
+  left: 0;
+  width: 100%;
+}
+.shapeOne {
+  bottom: 0;
+  left: 8.556rem;
+  width: 21.963rem;
+}
+.shapeItems,
+.shapeItems1 {
+  position: absolute;
+  border-radius: 50%;
+  width: 0.769rem;
+  height: 0.769rem;
+  z-index: 4;
+}
+.shapeItems {
+  top: 6.375rem;
+  left: 9.119rem;
+  box-shadow: 3px 1px 6px #5c14b5 inset;
+  background-color: var(--purple);
+}
+.shapeItems1 {
+  top: 4.163rem;
+  left: 29.075rem;
+  box-shadow: 2px -2px 6px rgba(193, 20, 106, 0.8) inset;
+  background-color: var(--pink-2);
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.expertShapes {
+  height: 21.963rem;
+  width: 38.744rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -19.031rem;
+  left: -29.056rem;
+}
+.becomeExpertInTechnologyParent,
+.expertContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.becomeExpertInTechnologyParent {
+  justify-content: flex-start;
+  position: relative;
+}
+.expertContainer {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xs);
+}
+.line {
+  height: 0.138rem;
+  width: 14.138rem;
+  position: relative;
+  box-shadow: 2px -2px 6px rgba(193, 20, 106, 0.8) inset;
+  background-color: var(--pink-2);
+  border-top: 2.2px solid var(--pink-2);
+  box-sizing: border-box;
+}
+.lineWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.talkWithOur {
+  position: relative;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  z-index: 4;
+}
+.servicesBody,
+.servicesDescription {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.servicesDescription {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base-4);
+}
+.servicesBody {
+  width: 47.125rem;
+  flex-direction: row;
+  padding: 0 var(--padding-15xl) var(--padding-12xl-1);
+  box-sizing: border-box;
+}
+.getYourDream {
+  position: relative;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  z-index: 4;
+}
+.getYourDreamJobWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.getEnrolledIn {
+  position: relative;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  z-index: 4;
+}
+.line1 {
+  align-self: stretch;
+  height: 0.138rem;
+  position: relative;
+  box-shadow: 1px 1px 7px #2a18c4 inset;
+  background-color: var(--blue);
+  border-top: 2.2px solid var(--blue);
+  box-sizing: border-box;
+}
+.getEnrolledInCourseParent {
+  width: 10.563rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xl);
+}
+.dreamJobContainer,
+.frameParent,
+.servicesCardContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.dreamJobContainer {
+  width: 42.313rem;
+  flex-direction: row;
+  padding: 0 var(--padding-22xl);
+  box-sizing: border-box;
+}
+.servicesCardContent {
+  width: 48rem;
+  flex-direction: column;
+  gap: var(--gap-93xl-9);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--body-sm-regular-size);
+  color: var(--color-dimgray-100);
+  font-family: var(--display-xs-bold);
+}
+@media screen and (max-width: 925px) {
+  .heading {
+    font-size: var(--font-size-15xl);
+    line-height: 2.5rem;
+  }
+  .servicesCardContent {
+    gap: var(--gap-37xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading {
+    font-size: var(--font-size-6xl);
+    line-height: 1.875rem;
+  }
+  .servicesCardContent {
+    gap: var(--gap-9xl);
+  }
+}

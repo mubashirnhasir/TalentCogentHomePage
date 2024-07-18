@@ -1,0 +1,59 @@
+.placeholderImage1 {
+  height: 26rem;
+  width: 26rem;
+  position: relative;
+  border-radius: var(--br-5xs);
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.contractStaffing {
+  position: relative;
+  font-size: var(--body-lg-regular-size);
+  letter-spacing: 0.06em;
+  line-height: 1.375rem;
+  font-family: var(--display-xs-bold);
+  color: var(--background-color-primary);
+  text-align: center;
+}
+.column,
+.serviceHeading {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.serviceHeading {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-5xl) var(--padding-2xs)
+    var(--padding-7xl);
+  background-color: var(--color-mediumslateblue-200);
+  box-shadow: 2px 6px 24px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-5xs) 0 var(--br-5xs) 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.serviceHeading:hover {
+  background-color: var(--color-royalblue-500);
+}
+.column {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  padding: 0 0 var(--padding-352xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  background-image: url(/public/placeholder-image-1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 19.563rem;
+  max-width: 100%;
+}
+@media screen and (max-width: 450px) {
+  .column {
+    padding-bottom: var(--padding-222xl);
+    box-sizing: border-box;
+  }
+}

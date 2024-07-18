@@ -1,0 +1,147 @@
+.talentCogent {
+  margin: 0;
+}
+.haveCrackedTheir {
+  margin: 0;
+  color: var(--neutral-gray-900);
+}
+.sectionTitle {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.sectionHeading {
+  flex: 1;
+  overflow: hidden;
+  justify-content: flex-start;
+}
+.row01,
+.sectionHeading,
+.sectionHeadingWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.sectionHeadingWrapper {
+  width: 79.75rem;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xl);
+  box-sizing: border-box;
+}
+.row01 {
+  width: 76rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-13xl);
+}
+.iconRightArrowAlt {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.rightbutton {
+  height: 3rem;
+  width: 3rem;
+  box-shadow: 0 8px 24px rgba(37, 62, 167, 0.1);
+  border-radius: var(--br-31xl);
+  background-color: var(--background-color-primary);
+  border: 1px solid var(--color-slateblue);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-2xs);
+}
+.rightbuttonWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.row02,
+.teamCardsContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.row02 {
+  width: 76rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-13xl);
+}
+.teamCardsContainer {
+  width: 79.75rem;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  font-size: var(--body-xl-semibold-size);
+  color: var(--neutral-gray-900);
+}
+.careersContainer,
+.careerssection {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.careerssection {
+  width: 90rem;
+  background-color: var(--background-color-primary);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-61xl) var(--padding-xl);
+  gap: var(--gap-45xl);
+  z-index: 7;
+}
+.careersContainer {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  text-align: center;
+  font-size: var(--font-size-23xl);
+  color: var(--color-slateblue);
+  font-family: var(--display-xs-bold);
+}
+@media screen and (max-width: 925px) {
+  .sectionTitle {
+    font-size: var(--font-size-15xl);
+    line-height: 2.5rem;
+  }
+  .row01,
+  .row02 {
+    gap: var(--gap-base);
+  }
+  .careerssection {
+    gap: var(--gap-13xl);
+    padding-top: var(--padding-33xl);
+    padding-bottom: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sectionTitle {
+    font-size: var(--font-size-6xl);
+    line-height: 1.875rem;
+  }
+  .careerssection {
+    gap: var(--gap-base);
+    padding-top: var(--padding-15xl);
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
